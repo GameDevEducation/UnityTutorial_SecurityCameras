@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c16ac4e37ab09a2409b642fda03dc2cc, type: 3}
+  m_Name: DefaultFPConfig
+  m_EditorClassIdentifier: 
+  Height: 1.8
+  Radius: 0.35
+  GroundedLayerMask:
+    serializedVersion: 2
+    m_Bits: 17
+  GroundedCheckBuffer: 0.2
+  CeilingCheckLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  CeilingCheckRangeBuffer: 0.05
+  CeilingCheckRadiusBuffer: 0.05
+  StepCheck_LookAheadRange: 0.1
+  StepCheck_MaxStepHeight: 0.3
+  Material_Default: {fileID: 13400000, guid: f3a406fa5f713fa409d024f9a8a59457, type: 2}
+  Material_Jumping: {fileID: 13400000, guid: 01cd7d9d003e8f143a1f5280e8e09f5c, type: 2}
+  Camera_InvertY: 0
+  Camera_HorizontalSensitivity: 10
+  Camera_VerticalSensitivity: 10
+  Camera_MinPitch: -75
+  Camera_MaxPitch: 75
+  WalkSpeed: 10
+  RunSpeed: 15
+  CanRun: 1
+  IsRunToggle: 1
+  SlopeLimit: 60
+  Acceleration: 1
+  FallVelocity: 12.5
+  CanAirControl: 1
+  AirControlMaxSpeed: 10
+  CanJump: 1
+  CanDoubleJump: 1
+  JumpVelocity: 5
+  JumpTime: 0.25
+  SendUIInteractions: 1
+  MaxInteractionDistance: 2
+  FootstepInterval_Walking: 0.4
+  FootstepInterval_Running: 0.2
+  MinAirTimeForLandedSound: 0.2
