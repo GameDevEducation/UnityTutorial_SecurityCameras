@@ -66,4 +66,14 @@ public class SecurityConsole : MonoBehaviour
         ActiveCameraLabel.text = $"Camera: {ActiveCamera.DisplayName}";
         CameraImage.texture = ActiveCamera.OutputTexture;
     }
+
+    public void OnDetected(GameObject target)
+    {
+        Debug.Log($"Detected {target.name}");
+    }
+
+    public void OnAllClear()
+    {
+        Debug.Log("All clear");
+    }
 }
